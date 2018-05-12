@@ -1,0 +1,25 @@
+{
+  "name": "basic-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev" : "NODE_ENV=dev node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thmsgbrt/Basic-Discord-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thmsgbrt/Basic-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/thmsgbrt/Basic-Discord-Bot#readme",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^2.4.2"
+  }
+}

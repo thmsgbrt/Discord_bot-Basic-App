@@ -1,1 +1,1 @@
-# Discord_bot-Cryptocurrency_price
+# Basic-Discord-Bot
