@@ -9,6 +9,8 @@ if (process.env.NODE_ENV === "dev") {
     botToken = process.env.BOT_TOKEN;
 }
 
+console.log('BOT_TOKEN:', botToken)
+
 // Configure logger settings
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
